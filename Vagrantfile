@@ -9,11 +9,11 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "ohai-ipmi-berkshelf"
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "Berkshelf-CentOS-6.3-x86_64-minimal"
+  config.vm.box = "CentOS-6.4-x86_64-Minimal-chef-11"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "https://dl.dropbox.com/u/31081437/Berkshelf-CentOS-6.3-x86_64-minimal.box"
+  config.vm.box_url = "http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20131103.box"
 
   # Assign this VM to a host-only network IP, allowing you to access it
   # via the IP. Host-only networks can talk to the host machine as well as
